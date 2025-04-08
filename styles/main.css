@@ -17,3 +17,25 @@ section {
 article {
   flex: 1;
 }
+.tech-blog-2-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.examples {
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  position: relative;
+  p {
+    text-align: center;
+  }
+}
+FOR example #header-text {
+  text-align: center;
+  color: #861212;
+}
