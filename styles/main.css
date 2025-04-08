@@ -5,3 +5,14 @@
 body {
   background-color: #b4a8a8;
 }
+.sub-headings {
+  margin-left: 50px;
+  color: #861212;
+}
+.corner-image {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 25px;
+  height: 25px;
+}
