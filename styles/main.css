@@ -54,6 +54,9 @@ article {
   }
   font-family: EB Garamond;
   font: 20px;
+  h3 {
+    color: var(--crimson);
+  }
 }
 .home-button {
   background-color: var(--grey);
