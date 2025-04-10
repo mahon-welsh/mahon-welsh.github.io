@@ -1,3 +1,8 @@
+:root {
+  --crimson: #861212;
+  --grey: #b4a8a8;
+}
+
 .headings {
   text-align: center;
   color: #861212;
@@ -35,7 +40,23 @@ article {
     text-align: center;
   }
 }
-FOR example #header-text {
-  text-align: center;
-  color: #861212;
+
+.blog-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    color: var(--crimson);
+  }
+  h2 {
+    color: var(--crimson);
+  }
+  font-family: EB Garamond;
+  font: 20px;
+}
+.home-button {
+  background-color: var(--grey);
+  border-color: var(--crimson);
+  border-width: 5px;
 }
